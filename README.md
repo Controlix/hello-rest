@@ -7,5 +7,6 @@ Tu run the docker image
 
 To push the docker image to docker hub
 > docker login
+
 > docker push controlix/hello-rest
 
