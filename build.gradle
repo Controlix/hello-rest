@@ -8,8 +8,9 @@ plugins {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-dependencies:2.0.6.RELEASE'
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+    implementation 'org.infinispan:infinispan-spring-boot-starter:2.0.0.Final'
 
-	implementation 'org.infinispan:infinispan-core:9.4.1.Final'
 	implementation 'org.projectlombok:lombok:1.18.4'
 	
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
